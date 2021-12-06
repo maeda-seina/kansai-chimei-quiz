@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+'use strict'
+
 const data = require('./data')
 const { Quiz } = require('enquirer')
 // 0~10の間で得たい場合は、11を指定

@@ -1,1 +1,1 @@
-# osaka-chimei-quiz
+# kansai-chimei-quiz

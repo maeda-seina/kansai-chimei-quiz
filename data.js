@@ -293,7 +293,7 @@ const questions = [
       name: 'name',
       message: '「相生」の読み方を教えて',
       choices: ['あいおい', 'そうせい', 'あいしょう', 'そうぶ'],
-      correctChoice: 1
+      correctChoice: 0
     }
   ],
   // 十問目

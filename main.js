@@ -5,7 +5,7 @@
 const data = require('./data')
 const { Quiz } = require('enquirer')
 // 0~10の間で得たい場合は、11を指定
-const randomNumber = Math.floor(Math.random() * 11)
+const randomNumber = Math.floor(Math.random() * 10)
 const readline = require('readline')
 
 class SetQuiz {

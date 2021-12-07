@@ -1,5 +1,5 @@
 # kansai-chimei-quiz
-This is a quiz on the names of places and stations in Kansai.
+This is a quiz on difficult-to-read place names and station names in Kansai.
 There will be 5 questions.
 Please try to pass as many times as you can.
 

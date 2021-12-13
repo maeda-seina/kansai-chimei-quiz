@@ -1,7 +1,7 @@
 {
   "name": "kansai-chimei-quiz",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "This is a quiz on difficult-to-read place names and station names in Kansai.",
   "main": "main.js",
   "bin": {
     "kansai-chimei-quiz": "./main.js"
@@ -13,6 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/maeda-seina/kansai-chimei-quiz.git"
   },
+  "keywords": [
+    "quiz",
+    "kansai",
+    "chimei",
+    "place name",
+    "osaka",
+    "hirakata"
+  ],
   "author": "Maeda",
   "license": "MIT",
   "bugs": {

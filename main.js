@@ -10,7 +10,7 @@ const readline = require('readline')
 
 class SetQuiz {
   constructor (point) {
-    this.point_ = point
+    this.point = point
   }
 
   explain () {
@@ -34,12 +34,12 @@ class SetQuiz {
   }
 
   async select (question) {
-    this.point_ = 0
+    this.point = 0
     const prompt = new Quiz(question)
     await prompt.run().then(answer => {
       if (answer.correct) {
         console.log('正解!')
-        this.point_ += 20
+        this.point += 20
       } else {
         console.log(`残念、不正解。 答えは... 「${answer.correctAnswer}」`)
       }
@@ -53,7 +53,7 @@ class SetQuiz {
     process.stdin.once('data', async () => {
       for (const question of this.arrayShuffle(data.questions[randomNumber])) {
         await this.select(question)
-        point += this.point_
+        point += this.point
       }
       if (point >= 80) {
         console.log(`おめでとうございます、合格です！！点数は${point}点でした。\nお疲れ様でした。`)

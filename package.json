@@ -1,6 +1,6 @@
 {
   "name": "kansai-chimei-quiz",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is a quiz on difficult-to-read place names and station names in Kansai.",
   "main": "main.js",
   "bin": {
